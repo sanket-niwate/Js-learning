@@ -59,3 +59,33 @@ vii)          Undefined                           undefined
 i)               Object                                object
 ii)              Array                                  object
 iii)             Function                            function(object)*/
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack(primitive ),Heap(non-primitive)
+
+let myEmailname="sanket@google.com";
+let anothername=myEmailname;
+
+anothername="s@google.com";
+
+console.log(myEmailname);
+console.log(anothername);
+
+
+let userOne={
+    email:"sanket@gmail.com"
+}
+
+let userTwo=userOne;
+
+userTwo.email="sa@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+// https://excalidraw.com/#json=i-IPbk7s_g8KGrrQZY-IV,FAP4qbPr9o2GjpftuhmFUw
