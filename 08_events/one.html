@@ -26,8 +26,24 @@
      // attachEvent()
     // jQuery - on
 
-    // type, timestamp, defaultPrevented
-    // target, toElement, srcElement, currentTarget,
+    // type
+    //The type read-only property of the Event interface returns a string containing the event's type. It is set when the event is constructed and is the name commonly used to refer to the specific event, such as click, load, or error.
+    
+    //timestamp
+    //The timeStamp read-only property of the Event interface returns the time (in milliseconds) at which the event was created. 
+    
+    //defaultPrevented
+    //The defaultPrevented read-only property of the Event interface returns a boolean value indicating whether or not the call to Event.preventDefault() canceled the event.
+    
+    // target
+    //The read-only target property of the Event interface is a reference to the object onto which the event was dispatched. It is different from Event.currentTarget when the event handler is called during the bubbling or capturing phase of the event.
+    
+    //currentTarget
+    //The currentTarget read-only property of the Event interface identifies the element to which the event handler has been attached.
+    //This will not always be the same as the element on which the event was fired, because the event may have fired on a descendant of the element with the handler, and then bubbled up to the element with the handler. The element on which the event was fired is given by Event.target.
+    //Note that the value of currentTarget is only available in a handler for the event. Outside an event handler it will be null. This means that, for example, if you take a reference to the Event object inside an event handler and then access its currentTarget property outside the event handler, its value will be null.
+
+    //toElement, srcElement
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
