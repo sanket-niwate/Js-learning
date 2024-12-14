@@ -2,7 +2,7 @@ const accoutNo =454544;
 let accountEmail ="sanekt@gmail.com";
 var accountPassword="446564"
 accountCity ="jaipur"
-let accountState;
+let accountState; //output is undefined
 
 // accoutNo =5 //not allowed
 
