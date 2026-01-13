@@ -61,8 +61,8 @@ let str3 = str1 + str2
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true);//output is 1
+// console.log(+"");//output is 0
 
 let num1, num2, num3
 
@@ -76,5 +76,5 @@ console.log(gameCounter);
 //prefix and postfix
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 
-//Ecmascript wevsite
+//ECMAScript website
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
