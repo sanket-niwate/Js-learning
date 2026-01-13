@@ -8,11 +8,13 @@
 // console.log(valueInNumber);
 
 
-
+//if score convervion
 //"33"=>33
 //"33sdfs"=>NaN
 //true=>1; false=>0
-
+//null-0
+//undifined-NAN
+//"sanket"-NAN
 
 let isLoggedIn=""
 
