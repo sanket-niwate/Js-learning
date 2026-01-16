@@ -1,11 +1,11 @@
 const name ="sanket"
 const repoCount=50
 
-console.log(name+repoCount+" value");
+console.log(name+repoCount+" value");//not a  good method to write code
 
-console.log(`hello my name is ${name}and my repo is ${repoCount}`); //use backticks for better code readibility
+console.log(`hello my name is ${name}and my repo is ${repoCount}`); //use backticks for better code readibility //it is string interpolation
 
-const gameName = new String('sanket niwate')
+const gameName = new String('sanket niwate')//we can access method // we can access key value pair
 
 
 // console.log(gameName[0]);
@@ -122,7 +122,7 @@ console.log("6. Slice (0, 5):", str.slice(0, 5)); // Output: "Hello"
 console.log("7. Substring (0, 5):", str.substring(0, 5)); // Output: "Hello"
 
 // 8. replace() - Replaces the first occurrence of a substring with a new value.
-//case-sensitive
+//case-sensitive //replaceAll()
 console.log("8. Replace 'World' with 'Everyone':", str.replace("World", "Everyone")); // Output: "Hello Everyone"
 
 // 9. trim() - Removes whitespace from both ends of the string.
